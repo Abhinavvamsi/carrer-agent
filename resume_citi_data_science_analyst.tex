@@ -1,0 +1,159 @@
+%-------------------------
+% Tailored ATS-Optimized LaTeX CV
+% Target Role: Data Science Analyst @ Citi (Bengaluru, India)
+% Alignment Focus: Speculative Analytics, Feature Engineering, Agentic RAG, Semantic Search
+% Frameworks: STAR & PAR outcome structures
+% Fits exactly 1-page full
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins to ensure 1-page compact layout
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Document Header  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        {\Huge\scshape Gopu Abhinav Vamsi} \\ \vspace{2pt}
+        Hyderabad, Telangana ~|~ Phone: 8977243888 ~|~ \href{mailto:abhinavvamsi2004@gmail.com}{\underline{abhinavvamsi2004@gmail.com}} \\ \vspace{2pt}
+        \small
+        \href{https://www.linkedin.com/in/gopu-abhinav-vamsi-0211ab294/}{\faLinkedin\ \underline{LinkedIn}} ~|~
+        \href{https://github.com/Abhinavvamsi}{\faGithub\ \underline{GitHub}} ~|~
+        \href{https://abhinavvamsi.github.io/abhinav-portfolio/}{\faGlobe\ \underline{Portfolio}}
+    \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Gokaraju Rangaraju Institute of Engineering and Technology}{Hyderabad}
+      {B.Tech in Computer Science and Engineering (8.2 CGPA)}{Expected Jul 2026}
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Credit Saison India}{Bangalore}
+      {Machine Learning Intern}{Dec 2024 -- Apr 2025}
+      \resumeItemListStart
+        \resumeItem{Assisted in collecting, cleaning, and preprocessing dense financial data stores to guarantee optimum data quality and input integrity across speculative underwriting analytics workflows.}
+        \resumeItem{Supported comprehensive feature engineering selection and model development assistance, training robust predictive pipelines for institutional clients (\textbf{Airtel, CRED, PhonePe}).}
+        \resumeItem{Collaborated directly with senior data scientists and engineering stakeholders to debug logic variances, maintaining clear and concise documentation of data processes and analytical findings.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\href{https://github.com/Abhinavvamsi/financial-rag-agent}{\textbf{Enterprise Financial RAG Agent}} ~|~ \textit{Python, LangChain, FAISS, Semantic Vector Search}}{}
+      \resumeItemListStart
+        \resumeItem{Engineered an advanced \textbf{Retrieval-Augmented Generation (RAG)} framework integrating Agentic routing solutions via \textbf{LangChain} to query unstructured regulatory banking guidelines deterministically.}
+        \resumeItem{Developed custom search techniques utilizing semantic vector embeddings in \textbf{FAISS} to execute high-precision cosine similarity lookups, supporting institutional generative AI applications.}
+        \resumeItem{Designed clear metadata traceability protocols mapping answers back to original document source nodes, ensuring rigorous compliance and eliminating unverified hallucination artifacts.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Zomato Customer Segmentation} ~|~ \textit{Python, Pandas, Scikit-Learn, EDA}}{}
+      \resumeItemListStart
+        \resumeItem{Conducted extensive Exploratory Data Analysis (\textbf{EDA}) and feature distributions modeling on massive consumer sets to uncover operational consumption trends and statistical patterns.}
+        \resumeItem{Deployed machine learning clustering algorithms to map predictive cohort behaviors, supporting scalable data extraction reporting and visualizations for non-technical audiences.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{End-to-End MLOps Pipeline Deployment} ~|~ \textit{Python, Flask, AWS, SQL}}{}
+      \resumeItemListStart
+        \resumeItem{Built and deployed real-time API execution layers leveraging \textbf{Flask} on \textbf{AWS EC2} to interface automated predictive scoring engines with external multi-threaded client channels.}
+        \resumeItem{Maintained foundational database structures using \textbf{SQL} for ongoing metric extraction and data process tracking, supporting reliable version control methodologies.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{COVID-19 Diagnostic Marker Classifier} ~|~ \textit{Python, TensorFlow, OpenCV}}{}
+      \resumeItemListStart
+        \resumeItem{Developed neural network visual classifiers to evaluate spatial feature maps, lifting unseen cross-validation accuracy substantially from \textbf{74.89\% to 89.34\%} with rigorous validation standards.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+  \vspace{-7pt}
+  \begin{itemize}[leftmargin=0.15in, label={}]\small{\item{
+    \textbf{Core Analytics}{: Python (Pandas, NumPy, Scikit-Learn), R, SQL, Exploratory Data Analysis (EDA), Data Cleaning} \\
+    \textbf{Machine Learning}{: Linear/Logistic Regression, Decision Trees, Feature Engineering, Clustering, Semantic Search} \\
+    \textbf{Advanced Systems}{: Agentic GenAI, LangChain, RAG Frameworks, Vector Embeddings (FAISS), Git Version Control} \\
+    \textbf{Cloud \& Platforms}{: AWS, REST APIs, Big Data Concepts, Data Visualization Tools, Production Documentation} \\
+    \textbf{Local Availability}{: Immediately available for full-time on-site engagement in Bengaluru}
+  }}
+  \end{itemize}
+
+\end{document}
