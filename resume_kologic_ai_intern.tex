@@ -1,0 +1,161 @@
+%-------------------------
+% Tailored ATS-Optimized LaTeX CV
+% Target Role: AI Intern @ Kologic.AI (Hyderabad, India)
+% Alignment Focus: Conversational AI, Workflow Automation, Data Intelligence
+% Frameworks: STAR & PAR outcome structures
+% Fits exactly 1-page full
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins to ensure 1-page compact layout
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Document Header  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        {\Huge\scshape Gopu Abhinav Vamsi} \\ \vspace{2pt}
+        Hyderabad, Telangana ~|~ Phone: 8977243888 ~|~ \href{mailto:abhinavvamsi2004@gmail.com}{\underline{abhinavvamsi2004@gmail.com}} \\ \vspace{2pt}
+        \small
+        \href{https://www.linkedin.com/in/gopu-abhinav-vamsi-0211ab294/}{\faLinkedin\ \underline{LinkedIn}} ~|~
+        \href{https://github.com/Abhinavvamsi}{\faGithub\ \underline{GitHub}} ~|~
+        \href{https://abhinavvamsi.github.io/abhinav-portfolio/}{\faGlobe\ \underline{Portfolio}}
+    \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Gokaraju Rangaraju Institute of Engineering and Technology}{Hyderabad}
+      {B.Tech in Computer Science and Engineering (8.2 CGPA)}{Expected Jul 2026}
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Credit Saison India}{Bangalore}
+      {Machine Learning Intern}{Dec 2024 -- Apr 2025}
+      \resumeItemListStart
+        \resumeItem{Engineered production-grade predictive machine learning models to simplify and optimize core risk underwriting operations, closely supporting enterprise data intelligence workflows.}
+        \resumeItem{Developed scalable automated client application evaluation pipelines for major corporate accounts (\textbf{Airtel, CRED, PhonePe}), ensuring rapid decision delivery and robust compliance tracing.}
+        \resumeItem{Performed rigorous feature engineering, target class balancing, and model debugging to guarantee highly reliable operational outcomes across dense transactional datasets.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{End-to-End MLOps Pipeline Deployment} ~|~ \textit{Python, Flask, AWS EC2, SQL}}{}
+      \resumeItemListStart
+        \resumeItem{Built and deployed a secure REST API serving architecture utilizing \textbf{Flask} on \textbf{AWS EC2} to integrate model inference logic with real-time enterprise process automation workflows.}
+        \resumeItem{Designed an active logging back-end using \textbf{SQL} to track payload inputs and capture evaluation metrics, ensuring systemic reliability and transparent monitoring for drift analysis.}
+        \resumeItem{Successfully delivered scalable hosting configurations capable of concurrent multi-threaded execution while eliminating request dropped-packet artifacts.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{COVID-19 Detection Using CNN} ~|~ \textit{Python, TensorFlow, Keras, OpenCV}}{}
+      \resumeItemListStart
+        \resumeItem{Developed a deep learning Computer Vision model utilizing \textbf{TensorFlow} to classify automated diagnostic markers, assisting clinical throughput efficiency.}
+        \resumeItem{Applied precise image processing and matrix transformations via \textbf{OpenCV} to optimize feature convergence and standardize generalizable loss validations.}
+        \resumeItem{Lifted out-of-sample diagnostic validation accuracy substantially from \textbf{74.89\% to 89.34\%}, demonstrating robust analytical problem-solving skills.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Deepfake Visual Media Detector} ~|~ \textit{Python, VGG-19 Deep Networks}}{}
+      \resumeItemListStart
+        \resumeItem{Fine-tuned a transfer learning neural network architecture to evaluate unverified spatial artifacts, delivering reliable classification on unseen test streams.}
+        \resumeItem{Achieved a definitive precision lift across rigorous visual arrays from \textbf{56.43\% to 82.99\%}, demonstrating proactive engineering design execution.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Zomato Customer Segmentation} ~|~ \textit{Python, Pandas, Scikit-Learn, Clustering}}{}
+      \resumeItemListStart
+        \resumeItem{Executed deep data analysis, missing-value imputation, and statistical modeling on unstructured customer dining records to extract actionable enterprise intelligence.}
+        \resumeItem{Deployed \textbf{K-Means clustering} algorithms to map highly localized operational client groupings, enabling dynamic target recommendation logic.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+  \vspace{-7pt}
+  \begin{itemize}[leftmargin=0.15in, label={}]\small{\item{
+    \textbf{Core Programming}{: Python, C, SQL (Proficient in foundational algorithms and CS optimization)} \\
+    \textbf{AI \& Data Intelligence}{: TensorFlow, Keras, Scikit-Learn, Pandas, NumPy, Feature Engineering, Workflow Automation} \\
+    \textbf{Systems \& Methodologies}{: AWS, REST APIs, MLOps, System Testing, Debugging, Operational Compliance} \\
+    \textbf{Certifications}{: Machine Learning (Udemy), Data Analyst (Udemy), MLOps Architecture (Udemy)} \\
+    \textbf{Local Availability}{: Immediately available for full-time on-site engagement in Hyderabad}
+  }}
+  \end{itemize}
+
+\end{document}

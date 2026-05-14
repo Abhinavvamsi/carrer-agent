@@ -1,0 +1,158 @@
+%-------------------------
+% Premium ATS-Optimized LaTeX CV
+% Indian Machine Learning & Data Science Market
+% Optimized using STAR & PAR Frameworks
+% Fits exactly 1-page full
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins to ensure 1-page compact layout
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Document Header  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        {\Huge\scshape Gopu Abhinav Vamsi} \\ \vspace{2pt}
+        Hyderabad, Telangana ~|~ Phone: 8977243888 ~|~ \href{mailto:abhinavvamsi2004@gmail.com}{\underline{abhinavvamsi2004@gmail.com}} \\ \vspace{2pt}
+        \small
+        \href{https://www.linkedin.com/in/gopu-abhinav-vamsi-0211ab294/}{\faLinkedin\ \underline{LinkedIn}} ~|~
+        \href{https://github.com/Abhinavvamsi}{\faGithub\ \underline{GitHub}} ~|~
+        \href{https://abhinavvamsi.github.io/abhinav-portfolio/}{\faGlobe\ \underline{Portfolio}}
+    \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Gokaraju Rangaraju Institute of Engineering and Technology}{Hyderabad}
+      {B.Tech in Computer Science and Engineering (8.2 CGPA)}{Expected Jul 2026}
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Credit Saison India}{Bangalore}
+      {Machine Learning Intern}{Dec 2024 -- Apr 2025}
+      \resumeItemListStart
+        \resumeItem{Engineered production-grade predictive machine learning models using gradient boosting algorithms to optimize underwriting consistency and client income verification accuracy.}
+        \resumeItem{Developed automated client application rejection pipelines for primary enterprise partners (\textbf{Airtel, CRED, PhonePe}), eliminating manual queue delays and processing operational turnaround bottlenecks.}
+        \resumeItem{Enhanced overall model predictive performance metrics by performing robust feature engineering pipelines, handling target class imbalances, and optimizing hyperparameter combinations.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{End-to-End MLOps Pipeline Deployment} ~|~ \textit{Flask, AWS EC2, SQL, Docker}}{}
+      \resumeItemListStart
+        \resumeItem{Developed an end-to-end scalable model serving REST API utilizing \textbf{Flask}, deployed on \textbf{AWS EC2} to bridge local model weights with responsive cloud web application workflows.}
+        \resumeItem{Implemented a dedicated \textbf{SQL} backend schema to capture real-time inference payloads, query response metrics, and target inputs for active model drift evaluation.}
+        \resumeItem{Successfully delivered high-availability REST endpoints capable of persistent logging during parallel API request bursts without dropped payload records.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{COVID-19 Detection Using CNN} ~|~ \textit{Python, TensorFlow, Keras, OpenCV}}{}
+      \resumeItemListStart
+        \resumeItem{Constructed a customized multi-layer Convolutional Neural Network (\textbf{CNN}) to classify positive COVID-19 markers from chest X-ray scans, assisting clinical screening operations.}
+        \resumeItem{Optimized image learning profiles via extensive geometric dataset augmentation, local threshold normalization, and targeted layer dropouts using \textbf{OpenCV}.}
+        \resumeItem{Improved primary validation classification accuracy significantly from \textbf{74.89\% to 89.34\%} while standardizing model loss curves against overfitting artifacts.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Deepfake Visual Media Detector} ~|~ \textit{Python, VGG-19, TensorFlow}}{}
+      \resumeItemListStart
+        \resumeItem{Fine-tuned a transfer learning \textbf{VGG-19} deep neural network architecture to evaluate pixel manipulation signatures across unverified images and synthesized video streams.}
+        \resumeItem{Achieved a substantial detection precision uplift across continuous test arrays from \textbf{56.43\% to 82.99\%}, validating strong model generalizability on unseen media samples.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Zomato Customer Segmentation} ~|~ \textit{Python, Pandas, Scikit-Learn, K-Means}}{}
+      \resumeItemListStart
+        \resumeItem{Executed robust data cleaning, missing-value imputation, and feature similarity transformations on raw operational dining logs utilizing \textbf{Pandas}.}
+        \resumeItem{Segmented regional restaurant markets using \textbf{K-Means clustering} algorithms to uncover target customer groupings, supporting strategic business intelligence pipelines.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+  \vspace{-7pt}
+  \begin{itemize}[leftmargin=0.15in, label={}]\small{\item{
+    \textbf{Languages}{: Python, C, SQL} \\
+    \textbf{Libraries \& Frameworks}{: TensorFlow, Keras, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Flask, OpenCV} \\
+    \textbf{Tools \& Methodologies}{: AWS, Postman API, GitHub, VS Code, MLOps, Model Deployment, Feature Engineering} \\
+    \textbf{Certifications}{: Machine Learning (Udemy), Data Analyst (Udemy), MLOps (Udemy)} \\
+    \textbf{Achievements}{: Qualified IIT-JEE Advanced (AIR 12,701), Intermediate Academic Excellence Award, Gold Medal in Table Tennis}
+  }}
+  \end{itemize}
+
+\end{document}
