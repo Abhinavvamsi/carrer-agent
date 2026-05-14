@@ -1,0 +1,61 @@
+# Career-Ops Profile Configuration
+# Single source of truth for personal data across all agent modes.
+
+candidate:
+  full_name: "Gopu Abhinav Vamsi"
+  email: "abhinavvamsi2004@gmail.com"
+  phone: "8977243888"
+  location: "Hyderabad, Telangana"
+  linkedin: "https://www.linkedin.com/in/gopu-abhinav-vamsi-0211ab294/"
+  portfolio_url: "https://abhinavvamsi.github.io/abhinav-portfolio/"
+  github: "https://github.com/Abhinavvamsi"
+  twitter: ""
+
+target_roles:
+  primary:
+    - "Machine Learning Engineer"
+    - "Data Scientist"
+    - "AI Engineer"
+  archetypes:
+    - name: "Machine Learning Engineer"
+    - level: "Entry-Level/Associate"
+      fit: "primary"
+    - name: "Data Scientist"
+      level: "Entry-Level/Associate"
+      fit: "primary"
+    - name: "AI Engineer"
+      level: "Entry-Level/Associate"
+      fit: "secondary"
+
+narrative:
+  headline: "Computer Science Engineering student with practical ML and software development expertise"
+  exit_story: "Final-year B.Tech CSE student at GRIET (8.2 CGPA) with professional applied ML internship experience at Credit Saison India."
+  superpowers:
+    - "End-to-end Machine Learning pipelines & MLOps deployment"
+    - "Deep Learning model architecture design & tuning (CNNs, VGG-19)"
+    - "Structured data engineering, feature extraction, and predictive risk analytics"
+  proof_points:
+    - name: "Credit Saison India Internship"
+      url: "https://drive.google.com/file/d/1HJCe0DU9Oa-ouwcx92wYn9Ie22KdXyqv/view"
+      hero_metric: "Improved model risk predictive performance & underwriting accuracy"
+    - name: "COVID-19 CNN Classifier"
+      url: "https://github.com/Abhinavvamsi/Covid-19_detection.git"
+      hero_metric: "Improved X-ray medical image classification accuracy from 74.89% to 89.34%"
+    - name: "Deepfake Visual Media Detector"
+      url: "https://github.com/Abhinavvamsi/Deepfake_detection.git"
+      hero_metric: "Increased media manipulation detection accuracy from 56.43% to 82.99%"
+
+compensation:
+  target_range: "₹12LPA-18LPA"
+  currency: "INR"
+  minimum: "₹8LPA"
+  location_flexibility: "Open to Hyderabad, Bangalore, Mumbai, Pune, and Chennai"
+
+location:
+  country: "India"
+  city: "Hyderabad"
+  timezone: "IST"
+  visa_status: "Indian Citizen"
+
+cv:
+  output_format: "latex"

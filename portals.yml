@@ -1,0 +1,72 @@
+# Portal Scanner Configuration
+# Customized for Entry-Level / Graduate Machine Learning & Data Science roles.
+
+title_filter:
+  positive:
+    - "Machine Learning"
+    - "Data Scientist"
+    - "Data Analyst"
+    - "AI Engineer"
+    - "ML Engineer"
+    - "Junior"
+    - "Associate"
+    - "Graduate"
+    - "Fresher"
+    - "Entry Level"
+    - "NLP"
+    - "Computer Vision"
+    - "Deep Learning"
+  negative:
+    - ".NET"
+    - "Java "
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Embedded"
+    - "Firmware"
+    - "Salesforce Admin"
+    - "SAP "
+    - "Mainframe"
+    - "COBOL"
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Director"
+    - "Head"
+  seniority_boost:
+    - "Junior"
+    - "Associate"
+    - "Graduate"
+    - "Entry-Level"
+
+search_queries:
+  - name: Entry Level ML — India
+    query: '"Machine Learning Engineer" OR "Data Scientist" "Junior" OR "Associate" OR "Fresher" Hyderabad OR Bangalore OR Mumbai OR Pune OR Chennai'
+    enabled: true
+
+  - name: Graduate AI Engineer — India
+    query: '"AI Engineer" OR "ML Engineer" "Graduate" OR "Entry Level" Hyderabad OR Bangalore OR Mumbai OR Pune OR Chennai'
+    enabled: true
+
+tracked_companies:
+  - name: Amazon India
+    careers_url: https://www.amazon.jobs/en/search?base_query=Machine+Learning&loc_query=India
+    enabled: true
+
+  - name: Microsoft India
+    careers_url: https://jobs.careers.microsoft.com/global/en/search?q=Machine%20Learning&l=en_us&pg=1&pgSz=20&disp=list&loc=India
+    enabled: true
+
+  - name: Google India
+    careers_url: https://www.google.com/about/careers/applications/jobs/results/?location=India&query=Machine%20Learning
+    enabled: true
+
+  - name: Credit Saison India
+    careers_url: https://creditsaison.in/careers
+    enabled: true
+
+  - name: Optum India
+    careers_url: https://careers.unitedhealthgroup.com/job-search-results/?keyword=Machine%20Learning&location=India
+    enabled: true
