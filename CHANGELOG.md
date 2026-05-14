@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.0](https://github.com/Abhinavvamsi/carrer-agent/compare/career-ops-v1.7.1...career-ops-v1.8.0) (2026-05-14)
+
+
+### Features
+
+* evaluate Citi Data Science Analyst role, generate ATS resume, and track custom GenAI RAG GitHub portfolio bridge ([154d72e](https://github.com/Abhinavvamsi/carrer-agent/commit/154d72e62fb7b13ddb515791547951bd0e47bc09))
+* update skill-gap bridging directive to clone existing GitHub repos instead of building from scratch ([492b78e](https://github.com/Abhinavvamsi/carrer-agent/commit/492b78eedefc86b85e0c3dffa2d0898fd6f164b0))
+
 ## [1.7.1](https://github.com/santifer/career-ops/compare/career-ops-v1.7.0...career-ops-v1.7.1) (2026-05-12)
 
 
